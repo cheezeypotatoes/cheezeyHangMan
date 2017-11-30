@@ -2,46 +2,71 @@
   box-sizing: border-box;
 }
 
-.top-bar {
-  /*background: lavender;*/
-  background-image: url( "./images/top-bar-image.jpg");
-  padding: 20px;
-  box-shadow: 0px 0px 0px 20px brown inset;
-  font-size: 0;
-  border: 4px solid darkslateblue;
-  height: 175px;
+h2 {
+  color: white;
 }
+
+h1  {
+  color: white;
+}
+
+a {
+  color:     #38508d  ;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding-right: 10px;
+}
+
+
 
 
 div#left {
-    /*border: 3px solid black;*/
-    float: left;
-    width: 30vw;
-    /*background-color: hsla(180, 50%, 50%, 0.3);*/
-    background-color: lemonchiffon;
-    /*padding: 0px 0px 0px 30px;*/
-    height: 100vw;
+  background-image: url(../images/hang-man.jpg);
+  width: 500px;
+  height: 1000px;
 }
 
+
 div#right {
-    /*border: 3px solid black;*/
-    float: left;
-    width: 68vw;
-    background-color: hsla(180, 50%, 50%, 0.3);
-    /*padding: 0px 0px 0px 30px;*/
-    height: 100vw;
+  background-image: url(../images/gallows.jpg);
+  width: 900px;
+
 }
+
+
+.game-status-container {
+  background: rgba( 222, 239, 242 , .4);
+
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 20px;
+  font-size: 1.3em;
+}
+
 
 p#display {
   letter-spacing: 15px;
   font-size: 100px;
+
 }
+
 
 p#lettersGuessed {
   letter-spacing: 15px;
   font-size: 50px;
+
 }
 
 .flexBox {
   flex-flow: row;
+  display: flex;
+}
+
+#right a {
+  float: right;
+
 }
